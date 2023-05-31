@@ -61,11 +61,11 @@ class TicketControl {
   atenderTicket(escritorio) {
 
     // No tenemos tickets
-    if ( this.tickets.length ) {
+    if ( this.tickets.length === 0) {
       return null;
     }
 
-    const ticket = this.ticket.shift(); //this.ticket[0];
+    const ticket = this.tickets.shift(); //this.ticket[0];
 
     ticket.escritorio = escritorio;
 

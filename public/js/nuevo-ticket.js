@@ -27,5 +27,3 @@ btnCrear.addEventListener( 'click', () => {
     });
 
 });
-
-console.log('Nuevo Ticket HTML');
